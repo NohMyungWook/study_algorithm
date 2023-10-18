@@ -1,5 +1,5 @@
 # study_algorithm
-백준 공부용 알고리즘입니다.
+알고리즘 스터디 및 백준 문제풀이용 Repository
 
 - 환경
   - IntelliJ

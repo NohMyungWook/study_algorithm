@@ -23,14 +23,13 @@ public class Main {
             x[i] = Integer.parseInt(st.nextToken());
         }
 
-        MIN = x[0];
+        MIN = Math.max(x[0], N - x[M - 1]);
 
         for (int i = 1; i < M; i++) {
             int dis = (x[i] - x[i - 1] + 1) / 2;
             MIN = Math.max(MIN, dis);
         }
 
-        MIN = Math.max(MIN, N - x[M - 1]);
         System.out.print(MIN);
     }
 }
